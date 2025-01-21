@@ -39,6 +39,11 @@
 
 .box8 {
     transition-timing-function: steps(15, end);
+    transition: all 3s ease;
+}
+
+.box8:hover {
+    background-color: lightseagreen;
 }
 
 .box9 {
