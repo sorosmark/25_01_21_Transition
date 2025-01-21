@@ -7,22 +7,27 @@
 
 .box1 {
     background-color: lightblue;
+    transition: background-color 2s ease;
 }
 
-/* .box1:hover {
+.box1:hover {
     background-color: lightcoral;
-} */
+}
 
 .box2 {
     background-color: lightgreen;
+    transition: transform 0.5s ease;
+    
 }
 
 .box2:hover {
-    transform: rotate(45deg);
+    transform: rotate(400000000deg);
 }
 
 .box3 {
     background-color: rgb(246, 246, 156);
+    transition: width 1s ease, height 5s ease, backgroundd-color 3s ease;
+
 }
 
 .box3:hover {
@@ -33,21 +38,22 @@
 
 .box4 {
     background-color: lightcyan;
-    transition: transform 2s ease;
+    transition: transform 10s ease;
     }
 
 .box4:hover {
-    transform: translateX(200px) translateY(200px);
+    transform: translateX(2000px) translateY(2000px);
 }
 
 .box5 {
     background-color: lightpink;
+    transition: all 3s ease;
 }
 
 .box5:hover {
     width: 200px;
     height: 200px;
-    background-color: lightseagreen;
+    background-image: ;
 }
 
 p {
