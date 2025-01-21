@@ -17,38 +17,38 @@
     background-color: lightgreen;
 }
 
-/* .box2:hover {
+.box2:hover {
     transform: rotate(45deg);
-} */
+}
 
 .box3 {
     background-color: rgb(246, 246, 156);
 }
 
-/* .box3:hover {
+.box3:hover {
     width: 200px;
     height: 200px;
     background-color: lightsalmon;
-} */
+}
 
 .box4 {
     background-color: lightcyan;
     transition: transform 2s ease;
-}
+    }
 
 .box4:hover {
-    transform: translateX(200px);
+    transform: translateX(200px) translateY(200px);
 }
 
 .box5 {
     background-color: lightpink;
 }
 
-/* .box5:hover {
+.box5:hover {
     width: 200px;
     height: 200px;
     background-color: lightseagreen;
-} */
+}
 
 p {
     font-size: 20px;
