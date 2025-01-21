@@ -21,7 +21,7 @@
 }
 
 .box2:hover {
-    transform: rotate(400000000deg);
+    transform: rotate(40000deg);
 }
 
 .box3 {
@@ -53,7 +53,7 @@
 .box5:hover {
     width: 200px;
     height: 200px;
-    background-image: ;
+    background-color: lightseagreen;
 }
 
 p {
@@ -64,4 +64,30 @@ p {
     padding: 10px;
     background-color: black;
     margin: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  a {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: #fff;
+    color: #333;
+  }
+
+  body{
+    background-color: aquamarine;
 }
